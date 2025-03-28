@@ -17,5 +17,5 @@ project/*
 !project/TERM
 
 # 如果 project/HEA-COGS 是目录，确保其内容也被保留
-!project/HEA-COGS/**
+!project/HEA_COGS/**
 !project/TERM/**
