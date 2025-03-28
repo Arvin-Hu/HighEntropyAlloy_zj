@@ -1,13 +1,18 @@
+# 忽略所有文件
+*
 
-
-# 但保留开发的代码
+# 但保留以下文件和目录
 !.gitignore
+!project/
+
+# 在 project/ 目录下，忽略所有文件
+project/*
+
+# 但保留 project/ 下的特定文件或目录
 !project/notebooks/official.ipynb
 !project/HEA-COGS
 !project/TERM
 
-# 忽略所有文件
-*
-
-# 忽略所有文件夹
-**/ 
+# 如果 project/HEA-COGS 是目录，确保其内容也被保留
+!project/HEA-COGS/**
+!project/TERM/**
