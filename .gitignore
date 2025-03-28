@@ -1,0 +1,10 @@
+# 忽略所有文件
+*
+
+# 忽略所有文件夹
+**/ 
+
+# 但保留开发的代码
+!project/notebooks/official.ipynb
+!project/HEA-COGS
+!project/TERM
