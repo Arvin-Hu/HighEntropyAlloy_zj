@@ -8,9 +8,12 @@
 # 在 project/ 目录下，忽略所有文件
 project/*
 
+# 然后取消忽略 notebooks/ 目录（如果它存在）
+!project/notebooks/
+
 # 但保留 project/ 下的特定文件或目录
 !project/notebooks/official.ipynb
-!project/HEA-COGS
+!project/HEA_COGS
 !project/TERM
 
 # 如果 project/HEA-COGS 是目录，确保其内容也被保留
