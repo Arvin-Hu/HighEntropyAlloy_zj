@@ -5,6 +5,7 @@
 **/ 
 
 # 但保留开发的代码
+!.gitignore
 !project/notebooks/official.ipynb
 !project/HEA-COGS
 !project/TERM
