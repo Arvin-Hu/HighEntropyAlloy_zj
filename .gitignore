@@ -1,11 +1,13 @@
-# 忽略所有文件
-*
 
-# 忽略所有文件夹
-**/ 
 
 # 但保留开发的代码
 !.gitignore
 !project/notebooks/official.ipynb
 !project/HEA-COGS
 !project/TERM
+
+# 忽略所有文件
+*
+
+# 忽略所有文件夹
+**/ 
