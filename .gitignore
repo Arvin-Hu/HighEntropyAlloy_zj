@@ -13,6 +13,7 @@ project/*
 
 # 但保留 project/ 下的特定文件或目录
 !project/notebooks/official.ipynb
+!project/notebooks/official_GPU.ipynb
 !project/HEA_COGS
 !project/TERM
 
